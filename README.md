@@ -1,16 +1,24 @@
-## Hi there 👋
+## 👋 Hi, I'm Lev
 
-<!--
-**LevaAverGit/LevaAverGit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Cyber Security Engineer in training with a strong focus on:
+- Web & Application Security
+- OWASP Top 10
+- HTTP traffic analysis
+- WAF tuning and false positive analysis
 
-Here are some ideas to get you started:
+## 🔍 What I'm currently working on
+- Building a solid foundation in networking and Linux
+- Practicing web security vulnerabilities in lab environments
+- Analyzing HTTP requests and attack patterns
+- Preparing for CompTIA Security+
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📂 What you will find here
+- Security learning notes
+- Hands-on labs and write-ups
+- Practical security research
+- Small security-related scripts
+
+## 🎯 Goals
+- CompTIA Security+ certification
+- Junior / Middle Security Engineer role (EU / Cyprus)
+- переведи
