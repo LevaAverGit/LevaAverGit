@@ -1,24 +1,24 @@
-## 👋 Hi, I'm Lev
+👋 Hi, I’m Lev
 
-I'm a Cyber Security Engineer in training with a strong focus on:
-- Web & Application Security
-- OWASP Top 10
-- HTTP traffic analysis
-- WAF tuning and false positive analysis
+Application Security Engineer focused on Web & API Security, WAF tuning, and AWS security.
 
-## 🔍 What I'm currently working on
-- Building a solid foundation in networking and Linux
-- Practicing web security vulnerabilities in lab environments
-- Analyzing HTTP requests and attack patterns
-- Preparing for CompTIA Security+
+I work with production-grade HTTP/HTTPS traffic analysis, OWASP Top 10 vulnerability validation, and security controls tuning with an emphasis on reducing false positives without weakening protection.
 
-## 📂 What you will find here
-- Security learning notes
-- Hands-on labs and write-ups
-- Practical security research
-- Small security-related scripts
+🔍 Core focus areas
+- Application Security (Web / API)
+- WAF tuning & false positive reduction
+- HTTP traffic analysis & request normalization
+- OWASP Top 10 validation & remediation guidance
+- AWS security fundamentals (IAM, VPC, logging)
 
-## 🎯 Goals
-- CompTIA Security+ certification
-- Junior / Middle Security Engineer role (EU / Cyprus)
-- переведи
+📌 What you’ll find here
+- Practical AppSec notes and checklists
+- Security write-ups and case-based analysis
+- Small tools/scripts for traffic analysis and security automation
+- OWASP-focused lab projects (safe, educational)
+
+🎯 Current direction
+Building a strong portfolio around AppSec engineering, WAF logic, and API abuse detection.
+
+📫 Contact
+LinkedIn: www.linkedin.com/in/lev-averianov-3ba1183a9
