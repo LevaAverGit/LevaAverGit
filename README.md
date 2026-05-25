@@ -1,24 +1,35 @@
-👋 Hi, I’m Lev
+## Lev Averianov
 
-Application Security Engineer focused on Web & API Security, WAF tuning, and AWS security.
+Python developer. Information security background.
 
-I work with production-grade HTTP/HTTPS traffic analysis, OWASP Top 10 vulnerability validation, and security controls tuning with an emphasis on reducing false positives without weakening protection.
+I build tools that automate the tedious parts of security work: compliance pre-audits,
+infrastructure hardening checks, log-based incident detection.
 
-🔍 Core focus areas
-- Application Security (Web / API)
-- WAF tuning & false positive reduction
-- HTTP traffic analysis & request normalization
-- OWASP Top 10 validation & remediation guidance
-- AWS security (IAM, VPC, logging)
+---
 
-📌 What you’ll find here
-- Practical AppSec notes and checklists
-- Security write-ups and case-based analysis
-- Small tools/scripts for traffic analysis and security automation
-- OWASP-focused practical projects and write-ups (safe, educational)
+**Stack**
 
-🎯 Current direction
-Building a strong portfolio around AppSec engineering, WAF logic, and API abuse detection.
+```
+Python 3.11   FastAPI   Playwright   Pydantic v2   pytest   aiosqlite
+Docker        Nginx     React 18     TypeScript     Vite     Tailwind CSS
+```
 
-📫 Contact
-LinkedIn: www.linkedin.com/in/lev-averianov-3ba1183a9
+**Featured projects**
+
+| Project | What it does | Tests |
+|---|---|---|
+| [pd-scanner-152fz](https://github.com/LevaAverGit/pd-scanner-152fz) | Async crawler that classifies personal data collection, maps third-party processors, and outputs structured 152-FZ evidence reports | 303 |
+| [security-config-audit-lab](https://github.com/LevaAverGit/security-config-audit-lab) | Docker lab (Nginx + Flask + PostgreSQL) with automated security config checks, severity scoring, and before/after reports | 72 |
+| [Log-incident-analyzer](https://github.com/LevaAverGit/Log-incident-analyzer) | CLI analyzer for auth.log / nginx / syslog — detects brute-force, scanning, anomalous access, and credential stuffing patterns | 58 |
+
+---
+
+**What I'm looking for**
+
+Open to junior Python backend / security tooling / information security roles.
+
+---
+
+**Contact**
+
+levaaverianov@gmail.com
