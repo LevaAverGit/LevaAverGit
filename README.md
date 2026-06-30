@@ -9,7 +9,8 @@ I build tools that automate the tedious parts of security work: detection pipeli
 ## Stack
 
 Python 3.11 · FastAPI · Pydantic v2 · pytest · SQLite · PyYAML  
-Playwright · aiosqlite · Docker · Nginx · React 18 · TypeScript · Vite
+Playwright · aiosqlite · Docker · Nginx · React 18 · TypeScript · Vite  
+Keycloak · OAuth2 / OIDC · SAML 2.0 · JWT / JWE · MFA · WebAuthn
 
 ---
 
@@ -17,6 +18,7 @@ Playwright · aiosqlite · Docker · Nginx · React 18 · TypeScript · Vite
 
 | Project | What it does | Tests |
 |---|---|---:|
+| [keycloak-iam-lab](https://github.com/LevaAverGit/keycloak-iam-lab) | Identity &amp; access management lab on Keycloak: OAuth2 (Authorization Code + PKCE, Client Credentials), OIDC, SAML 2.0, JWT/JWS/JWE, MFA (TOTP), WebAuthn/passkey, RBAC — a FastAPI relying party in Docker Compose, with bilingual test reports. | 14 |
 | [appsec-review-lab-v2](https://github.com/LevaAverGit/appsec-review-lab-v2) | FastAPI AppSec lab with vulnerable/fixed endpoint pairs mapped to OWASP Top 10, SAST/DAST checks, CI, and interview-ready documentation. | 159 |
 | [mini-siem-detection-lab-v2](https://github.com/LevaAverGit/mini-siem-detection-lab-v2) | SIEM-like detection lab: 4 log sources, normalization, 9 detection rules, MITRE ATT&CK mapping, alert lifecycle, incident grouping, FastAPI, CLI, Markdown/JSON reports. | 124 |
 | [pd-scanner-152fz-v2](https://github.com/LevaAverGit/pd-scanner-152fz-v2) | Local-first technical pre-screening tool for public website personal-data signals: Playwright crawler, SSRF guard, evidence model, reports, FastAPI + React. | 303 |
