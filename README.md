@@ -1,37 +1,38 @@
 # Lev Averyanov
 
-Python developer. Information security background.
+**LLM security & detection engineering.** I build measurement-first labs that
+quantify where large language models help — and where they break — in security:
+prompt injection, RAG knowledge-base poisoning, data-leak prevention, and
+LLM-vs-rules threat detection. Every lab ships honest metrics (including negative
+results), reproduces offline, and maps to **OWASP LLM Top-10** and **MITRE ATT&CK**.
 
-I build tools that automate the tedious parts of security work: detection pipelines, compliance pre-audits, log-based incident analysis, and infrastructure hardening checks.
+## Focus — LLM × security
 
----
+| Project | What it measures | Key stack | Tests |
+|---|---|---|---:|
+| [llm-prompt-injection-lab](https://github.com/LevaAverGit/llm-prompt-injection-lab) | Prompt-injection resilience: an `attacker → app → judge` harness scoring an **attack-class × defense breach-rate matrix** (OWASP LLM01) | **LangGraph**, LLM-as-judge, Pydantic | 65 |
+| [llm-rag-poisoning-lab](https://github.com/LevaAverGit/llm-rag-poisoning-lab) | Indirect prompt injection via **RAG knowledge-base poisoning**: poisoning-class × defense breach matrix | **LlamaIndex**, **HF** embeddings + injection classifier, Ollama | 133 |
+| [llm-log-anomaly-detection](https://github.com/LevaAverGit/llm-log-anomaly-detection) | Rule-based (Sigma) vs LLM incident detection, with **prompt-version and multi-model (gemma3 / Qwen / DeepSeek; GigaChat-ready) F1 comparison** | **LangChain**, scikit-learn, MITRE ATT&CK | 36 |
+| [llm-data-leak-guard](https://github.com/LevaAverGit/llm-data-leak-guard) | **DLP for LLMs**: detects and redacts PII/secrets from a prompt before the model sees it (152-FZ / GDPR) | FastAPI, Presidio, regex + entropy | 80 |
+| [multi-tenant-rls-isolation-lab](https://github.com/LevaAverGit/multi-tenant-rls-isolation-lab) | Tenant isolation enforced **in the database** (FORCE RLS) so a forgotten `WHERE` still can't leak across tenants | PostgreSQL RLS, psycopg | 12 |
+
+Each repo opens with a results table or a worked example, a `make run` that
+reproduces the numbers offline, and a "what I learned" that keeps the negative
+results in.
 
 ## Stack
 
-Python 3.11 · FastAPI · Pydantic v2 · pytest · SQLite · PyYAML  
-Playwright · aiosqlite · Docker · Nginx · React 18 · TypeScript · Vite  
-Keycloak · OAuth2 / OIDC · SAML 2.0 · JWT / JWE · MFA · WebAuthn
+**LLM** — LangChain · LangGraph · LlamaIndex · Hugging Face Transformers · Ollama · Pydantic · prompt engineering · LLM-as-judge · OWASP LLM Top-10
+**Security** — prompt injection · RAG security · DLP · Sigma detection · MITRE ATT&CK · PostgreSQL RLS · 152-FZ / GDPR
+**Engineering** — Python · FastAPI · scikit-learn · pytest · Docker · REST · Git · Linux
 
----
+## More security labs
 
-## Featured projects
+IAM on Keycloak (OAuth2 / OIDC / SAML / MFA / WebAuthn) · AppSec (OWASP Top-10 vulnerable/fixed pairs, SAST/DAST) · SIEM-style detection · config hardening · 152-FZ personal-data scanner — see [all repositories »](https://github.com/LevaAverGit?tab=repositories).
 
-| Project | What it does | Tests |
-|---|---|---:|
-| [keycloak-iam-lab](https://github.com/LevaAverGit/keycloak-iam-lab) | Identity &amp; access management lab on Keycloak: OAuth2 (Authorization Code + PKCE, Client Credentials), OIDC, SAML 2.0, JWT/JWS/JWE, MFA (TOTP), WebAuthn/passkey, RBAC — a FastAPI relying party in Docker Compose, with bilingual test reports. | 14 |
-| [appsec-review-lab-v2](https://github.com/LevaAverGit/appsec-review-lab-v2) | FastAPI AppSec lab with vulnerable/fixed endpoint pairs mapped to OWASP Top 10, SAST/DAST checks, CI, and interview-ready documentation. | 159 |
-| [mini-siem-detection-lab-v2](https://github.com/LevaAverGit/mini-siem-detection-lab-v2) | SIEM-like detection lab: 4 log sources, normalization, 9 detection rules, MITRE ATT&CK mapping, alert lifecycle, incident grouping, FastAPI, CLI, Markdown/JSON reports. | 124 |
-| [pd-scanner-152fz-v2](https://github.com/LevaAverGit/pd-scanner-152fz-v2) | Local-first technical pre-screening tool for public website personal-data signals: Playwright crawler, SSRF guard, evidence model, reports, FastAPI + React. | 303 |
-| [security-config-audit-lab-v2](https://github.com/LevaAverGit/security-config-audit-lab-v2) | Docker/Nginx/Flask hardening lab with vulnerable vs hardened stacks, automated security configuration checks, risk scoring, Markdown/JSON reports. | 72 |
-| [log-incident-analyzer-v2](https://github.com/LevaAverGit/log-incident-analyzer-v2) | CLI log analyzer for auth/nginx/syslog patterns: brute-force, scanning, anomalies, credential-stuffing indicators, MITRE-aware incident reports. | 58 |
+## Open to
 
----
-
-## What I'm looking for
-
-Open to junior Python backend / security tooling / information security roles.
-
----
+**Prompt Engineer (LLM security) · LLM / AI security · detection engineering.** Moscow / remote.
 
 ## Contact
 
