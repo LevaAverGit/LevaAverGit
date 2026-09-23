@@ -30,6 +30,18 @@ results in.
 
 IAM on Keycloak (OAuth2 / OIDC / SAML / MFA / WebAuthn) · AppSec (OWASP Top-10 vulnerable/fixed pairs, SAST/DAST) · SIEM-style detection · config hardening · 152-FZ personal-data scanner — see [all repositories »](https://github.com/LevaAverGit?tab=repositories).
 
+## Backend & data — skill → proof
+
+Enterprise-Python skills, each one click from the file that uses it:
+
+| Skill | Repo | What / where |
+|---|---|---|
+| **Django** | [soc-triage-console](https://github.com/LevaAverGit/soc-triage-console) | SOC incident-triage console: models, CBV + FBV, L1/L2 role transitions enforced **server-side** ([transitions.py](https://github.com/LevaAverGit/soc-triage-console/blob/main/triage/transitions.py)), append-only audit trail, admin, management commands · 42 tests, green CI |
+| **SQLAlchemy** | [multi-tenant-rls-isolation-lab](https://github.com/LevaAverGit/multi-tenant-rls-isolation-lab) | ORM + Core, engine/pool, sessions, per-transaction tenant context via `set_config` for RLS ([app/orm.py](https://github.com/LevaAverGit/multi-tenant-rls-isolation-lab/blob/main/app/orm.py)) |
+| **OpenPyXL** | [mini-siem-detection-lab-v2](https://github.com/LevaAverGit/mini-siem-detection-lab-v2) | Per-incident Excel report: 3 sheets, header styles, freeze panes, severity fills ([report_service.py](https://github.com/LevaAverGit/mini-siem-detection-lab-v2/blob/main/app/services/report_service.py)) |
+| **Grafana** | [mini-siem-detection-lab-v2](https://github.com/LevaAverGit/mini-siem-detection-lab-v2) | Provisioned-as-code SOC dashboard: 11 SQL panels, read-only DB mount ([grafana/](https://github.com/LevaAverGit/mini-siem-detection-lab-v2/tree/main/grafana)) |
+| **Flask** | [security-config-audit-lab-v2](https://github.com/LevaAverGit/security-config-audit-lab-v2) | Hardened vs vulnerable web apps compared by a config scanner ([hardened app](https://github.com/LevaAverGit/security-config-audit-lab-v2/blob/main/hardened/app/app.py)) |
+
 ## Open to
 
 **Prompt Engineer (LLM security) · LLM / AI security · detection engineering.** Moscow / remote.
