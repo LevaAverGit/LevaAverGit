@@ -40,7 +40,7 @@ Enterprise-Python skills, each one click from the file that uses it:
 | **SQLAlchemy** | [multi-tenant-rls-isolation-lab](https://github.com/LevaAverGit/multi-tenant-rls-isolation-lab) | ORM + Core, engine/pool, sessions, per-transaction tenant context via `set_config` for RLS ([app/orm.py](https://github.com/LevaAverGit/multi-tenant-rls-isolation-lab/blob/main/app/orm.py)) |
 | **OpenPyXL** | [mini-siem-detection-lab-v2](https://github.com/LevaAverGit/mini-siem-detection-lab-v2) | Per-incident Excel report: 3 sheets, header styles, freeze panes, severity fills ([report_service.py](https://github.com/LevaAverGit/mini-siem-detection-lab-v2/blob/main/app/services/report_service.py)) |
 | **Grafana** | [mini-siem-detection-lab-v2](https://github.com/LevaAverGit/mini-siem-detection-lab-v2) | Provisioned-as-code SOC dashboard: 11 SQL panels, read-only DB mount ([grafana/](https://github.com/LevaAverGit/mini-siem-detection-lab-v2/tree/main/grafana)) |
-| **Flask** | [security-config-audit-lab-v2](https://github.com/LevaAverGit/security-config-audit-lab-v2) | Hardened vs vulnerable web apps compared by a config scanner ([hardened app](https://github.com/LevaAverGit/security-config-audit-lab-v2/blob/main/hardened/app/app.py)) |
+| **Flask** | [event-intake](https://github.com/LevaAverGit/event-intake) | Event-ingestion gateway: API-key auth, validation, idempotency, accept-fast (`202`) with an async worker ([routes.py](https://github.com/LevaAverGit/event-intake/blob/main/app/routes.py)) |
 
 ## Open to
 
